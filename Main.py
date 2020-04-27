@@ -39,5 +39,4 @@ def change_msg(message):
     elif message.chat.type == 'private':
         bot.reply_to(message, posolen_private)
 
-
 bot.polling(none_stop=True)
